@@ -1,0 +1,11 @@
+POST http://localhost:8080/api/expenses
+Content-Type: application/json
+
+{
+  "amount": 500,
+  "description": "Lunch",
+  "date": "17-04-2026",
+  "department": "Engineering",
+  "category": "Meals",
+  "receiptUrl": ""
+}
